@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BAI 1 */
+.b1-title {
+    background-color: rgb(255, 94, 0);
+    margin-bottom: 30px;
+    border-bottom: 4px solid #000;
+}
+
+table {
+    border-spacing: 0;
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: rgb(224, 162, 47);
+    color: #fff;
+}
+
+th,
+td {
+    border: 1px solid rgb(156, 42, 42);
+    padding: 4px 8px;
+}
+
+/* BAI 2 */
+
+.b2-menu {
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.b2-menu-item {
+    background-color: blue;
+    padding: 8px 12px;
+    border-right: 1px solid #837f7f;
+    color: #fff;
+}
+
+.b2-menu-item:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+/* BAI 3 */
+
+.b3-menu {
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.b3-menu-item {
+    background-color: blue;
+    padding: 8px 12px;
+    border-right: 1px solid #837f7f;
+    color: #fff;
+}
+
+.b3-menu-item:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.b3-menu-cap2 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: flex;
+    list-style: none;
+    margin-bottom: 60px;
+    display: none;
+}
+
+.b3-menu-item-cap2 {
+    background-color: red;
+    padding: 8px 12px;
+    border-right: 1px solid #837f7f;
+    color: #fff;
+}
+
+.b3-menu li:nth-child(2):hover .b3-menu-cap2 {
+    display: flex;
+
+}
+
+/* BAI 4 */
+
+.b4-menu {
+    margin-top: 20px;
+    width: 150px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.b4-menu-item {
+    background-color: blue;
+    padding: 8px 12px;
+    border-right: 1px solid #837f7f;
+    color: #fff;
+}
+
+.b4-menu-item:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+/* BAI 5 */
+
+.b5-menu {
+    margin-top: 20px;
+    list-style: none;
+    width: 150px;
+    margin-bottom: 60px;
+}
+
+.b5-menu li:nth-child(1) {
+    position: relative;
+
+}
+
+.b5-menu-item {
+    background-color: blue;
+    padding: 8px 12px;
+    border-right: 1px solid #837f7f;
+    color: #fff;
+}
+
+.b5-menu-item:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.b5-menu-cap2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    list-style: none;
+    margin-bottom: 60px;
+    display: none;
+}
+
+.b5-menu-item-cap2 {
+    background-color: red;
+    padding: 8px 12px;
+    border-right: 1px solid #837f7f;
+    color: #fff;
+}
+
+.b5-menu li:nth-child(1):hover .b5-menu-cap2 {
+    display: block;
+
+}

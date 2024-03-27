@@ -1,0 +1,80 @@
+.bai1 {
+    padding: 20px 12px;
+    background-color: rgb(120, 206, 247);
+}
+
+.bai1 h1 {
+    color: #fff;
+    text-align: right;
+}
+
+.bai2 {
+    padding: 30px 18px;
+    height: 400px;
+    background-color: #A06D21;
+    background-image: url(./vltt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    opacity: 0.5;
+    padding: 20px 180px;
+}
+
+.title {
+    color: #FFCC00;
+    text-align: center;
+    z-index: 1;
+}
+
+.desc {
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 8px 12px;
+    width: 500px;
+    box-shadow: 1px 1px 1px 1px #000;
+    height: 260px;
+    margin-bottom: 240px;
+}
+
+.titleb3 {
+    color: green;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.congThuc {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+b {
+    text-decoration: underline;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.ct {
+    color: red;
+}
+
+.vlfor {
+    margin-top: 20px;
+    background-color: #CCCCCC;
+    color: #0000CC;
+    width: 100%;
+    height: 80px;
+    padding: 8px 160px;
+    box-sizing: border-box;
+}
+
+.p1 {
+    text-align: right;
+}

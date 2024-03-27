@@ -1,0 +1,21 @@
+.b1-desc {
+    border: 6px dotted red;
+}
+
+.b2-desc {
+    padding-top: 30px;
+    background-color: rgb(201, 201, 245);
+}
+
+.container {
+    display: inline-block;
+    background-color: blue;
+}
+
+.content {
+    margin: 25px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(201, 201, 245);
+    padding: 25px;
+}
